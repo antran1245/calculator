@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calculator {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#display {
+    background-color: gray;
+    padding: 10px;
+    margin: 20px 20px 10px 20px;
+    font-size: x-large;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.row button {
+    padding: 20px;
+    margin: 5px;
+    font-size: larger;
+}
+.row #equals {
+    width: 100%;
+}
